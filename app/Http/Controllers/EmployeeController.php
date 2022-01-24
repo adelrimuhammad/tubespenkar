@@ -27,7 +27,7 @@ class EmployeeController extends Controller
             'data'=>$employee
         ];
 
-        return response()->json($response,Response::HTTP_OK);
+        return response()->json($employee,Response::HTTP_OK);
     }
 
    
